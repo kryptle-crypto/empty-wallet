@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background: linear-gradient(to bottom, #3498db, #2980b9); /* Blue gradient background */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wallet-container {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid #e74c3c; /* Choose a border color that stands out */
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .wallet-icon {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .empty-sticker {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #e74c3c; /* Choose sticker color */
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  .message {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e74c3c; /* Choose a text color that stands out against the background */
+    margin-top: 20px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Add black border to red text */
+  }
+
+  .fund-button {
+    background-color: #27ae60; /* Green button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+  <div class="wallet-container">
+    <div class="empty-sticker">Empty</div>
+    <div class="wallet-icon">💰</div> <!-- Emoji wallet icon -->
+  </div>
+  <div class="message">Your wallet is empty. To make a trade, please fund your wallet and continue.</div>
+  <a href="https://buy.moonpay.com/?apiKey=pk_live_D4M9IUMtLoDQUpSA0qQnn8VmfusvoSSQ&baseCurrencyAmount=50&baseCurrencyCode=USD&currencyCode=ETC&signature=BFkWgcuMxu1PvRY08vHvcT5E68TWjacSiULvF4UlFmA%3D&walletAddress=0xe5924c45490A4Be3115F58d2E8abF7918706B981" class="fund-button">Fund Account via ETC Wallet</a>
+</body>
+</html>
+￼Enter
